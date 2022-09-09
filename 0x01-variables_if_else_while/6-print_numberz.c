@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
- * Description to print numbers
- *
- */
 
+/**
+* main - print numbers
+*
+* Return: Always (Success)
+*/
 int main()
 {
     int n = 0;
-    while (n <=9){
+
+    while (n <=9)
+    {
         putchar(n + '0');
         ++n;
     }
