@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
-* main - print numbers
-*
-* Return: Always (Success)
-*/
-int main()
+ * main - main function
+ *
+ * Return: end of program
+ */
+int main(void)
 {
-    int 0;
+    int n;
 
     for (n = '0'; n <= '9'; ++n)
     	putchar(n);
